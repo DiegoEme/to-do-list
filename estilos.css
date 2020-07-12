@@ -1,0 +1,58 @@
+h1 {
+  font-family: "Inconsolata", monospace;
+  color: white;
+  text-align: center;
+}
+body {
+  background: rgb(69, 78, 27);
+  background: radial-gradient(
+    circle,
+    rgba(69, 78, 27, 1) 0%,
+    rgba(14, 41, 0, 1) 100%
+  );
+}
+
+.item {
+  font-size: 1em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 2px solid black;
+  width: 200px;
+  height: 25px;
+  margin: 0.2em auto;
+  text-align: center;
+  background-color: beige;
+  border-radius: 10px;
+}
+
+.botonadd,
+.botonerase {
+  width: 86px;
+  padding: 0.3em;
+  margin: 0.5em 0.3em;
+  border: none;
+  border-radius: 10px;
+}
+
+.botonadd:hover,
+.botonerase:hover {
+  color: black;
+  opacity: 0.8;
+}
+.botonadd {
+  background: green;
+  color: white;
+}
+.botonerase {
+  background: red;
+  color: white;
+}
+
+.contenedor {
+  margin: auto;
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}

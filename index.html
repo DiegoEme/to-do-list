@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+      integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA=="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <h1>Lista de Tareas</h1>
+    <div class="contenedor">
+      <form>
+        <input type="text" class="asignar-tarea" />
+      </form>
+      <button type="submit" onclick="agregar()" class="botonadd">
+        <i class="fas fa-plus-circle"></i>
+      </button>
+
+      <button onclick="borrar()" class="botonerase">
+        <i class="fas fa-trash"></i>
+      </button>
+      <section id="lista"></section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
