@@ -22,6 +22,7 @@ body {
   text-align: center;
   background-color: beige;
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .botonadd,
@@ -37,6 +38,7 @@ body {
 .botonerase:hover {
   color: black;
   opacity: 0.8;
+  cursor: pointer;
 }
 .botonadd {
   background: green;
@@ -55,4 +57,25 @@ body {
   justify-content: center;
   align-items: center;
   flex: 1;
+}
+
+.check {
+  background-color: beige;
+  float: right;
+  border: none;
+  margin-top: 0.25em;
+}
+
+.check:hover {
+  cursor: pointer;
+  color: green;
+}
+
+.fa-check {
+  pointer-events: none;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.8;
 }
